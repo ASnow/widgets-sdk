@@ -9,8 +9,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
         <style> h2 { color: #EDB200; } </style>
         <div id="app_container">Hello, world!</div>
-        <script type="text/jsx">
+        <script type="text/babel">
               gadgets.util.registerOnLoadHandler(function(){
+                   alert(document.getElementById("app_container"));
                    var HelloMessage = React.createClass({ render: function() { return <div>Hello {this.props.name}</div>; } }); ReactDOM.render(<HelloMessage name="John" />, document.getElementById("app_container"));
               });
         </script>
