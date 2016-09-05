@@ -8,10 +8,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
         <style> h2 { color: #EDB200; } </style>
-        <h2>Hello, world!</h2>
+        <div id="app_container">Hello, world!</div>
         <script type="text/jsx">
               gadgets.util.registerOnLoadHandler(function(){
-                   alert('Hello, world!');
+                   var HelloMessage = React.createClass({ render: function() { return <div>Hello {this.props.name}</div>; } }); ReactDOM.render(<HelloMessage name="John" />, document.getElementById("app_container"));
               });
         </script>
        ]]>
