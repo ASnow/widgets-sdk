@@ -18,3 +18,17 @@ Important notice
 ----------------
 Check for individual readme provided for each widget in its directory
 For additional info and step-by-step instructions visit <https://rooxteam.jira.com/wiki/display/WMS/Widget+Best+Practices>
+
+Использование фич
+-----------------
+
+1. Render types views(Iframe,inline)
+2. View type
+3. Вставка через rooxWidgetStart, Iframe
+4. __NODULE_ID__ injection
+5. Передача параметров
+6. Auth
+7. WebApi
+8. Post-messaging между вижетами Pubsub
+9. Локализация (https://rooxteam.jira.com/wiki/pages/viewpage.action?pageId=72450229)
+10. React.js
